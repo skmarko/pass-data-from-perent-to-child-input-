@@ -1,0 +1,33 @@
+<h4>1- Home comp:</h4>
+Enter your name :
+<input type="text" name="" [(ngModel)]="myName"> {{myName}}
+<hr>
+<!----<div class="container">
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="" [(ngModel)]="name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" [(ngModel)]="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Contact</label>
+            <input type="text" [(ngModel)]="Contact" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>password</label>
+            <input type="password" [(ngModel)]="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn-btn-default" (click)="sumbit()">sumbit</button>
+        </div>
+    </form>
+
+</div>
+-->
+
+<app-about [name]="myName"></app-about>
+<app-contact [name]="myName"></app-contact>
